@@ -28,12 +28,12 @@ function Card(Props: CardProps) {
   }
 
   return (
-    <div className={`${isDark ? darkStyle.container : 'bg-white text-black'} card-box`}>
+    <div className={`${isDark ? darkStyle.container : 'bg-white text-black '} card-box`}>
       <div className="header">
         <div className="Balance-details">
           <LabelValue label="Balance" value={`$${Props.Balance}`} />
         </div>
-        <img className="image-icon" src={`${isDark ? 'chip-icon.png' : 'dark-chip.svg'}`} alt="icon" />
+        <img className="image-icon" src={`${isDark ? 'chip-icon.svg' : 'dark-chip-icon.svg'}`} alt="icon" />
       </div>
       <div className="user-details">
         <div className="user-name">

@@ -16,7 +16,7 @@ const menu: MenuItemsProps[] = [
 
 function MenuItem({ title, path }: MenuItemsProps) {
   return (
-    <a className="px-4 py-2 flex flex-coloum " href={path}>
+    <a className="px-4 py-2 flex flex-coloum text-gray-400 hover:text-black" href={path}>
       {title}
     </a>
   )
@@ -24,7 +24,7 @@ function MenuItem({ title, path }: MenuItemsProps) {
 
 function Sidebar() {
   return (
-    <div>
+    <div className="bg-white w-56 h-screen flex flex-col gap-2">
       {menu.map((item) => (
         <MenuItem key={item.title} path={item.path} title={item.title} />
       ))}

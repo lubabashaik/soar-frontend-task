@@ -22,7 +22,7 @@ function MenuItem({ title, path, img }: MenuItemsProps) {
     <NavLink
       to={path}
       className={({ isActive }) =>
-        `px-4 py-2  gap-3 flex items-center opacity-45 hover:text-black ${isActive ? 'text-black border-black border-l-4 opacity-100 ' : ''}`
+        `px-4 py-2  gap-3 flex items-center  ${isActive ? 'text-black border-black border-l-4 opacity-100  ' : 'opacity-50'}`
       }
     >
       <img className="w-4 h-4" src={img} alt="" />

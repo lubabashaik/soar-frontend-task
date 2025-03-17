@@ -59,20 +59,8 @@ function Graph() {
         <YAxis ticks={[0, 100, 200, 300, 400, 500]} />
         <Tooltip />
         <Legend iconType="circle" verticalAlign="top" align="right" />
-        <Bar
-          radius={20}
-          barSize={10}
-          dataKey="Withdraw"
-          fill="#343C6A"
-          activeBar={<Rectangle fill="pink" stroke="gray" />}
-        />
-        <Bar
-          radius={20}
-          barSize={10}
-          dataKey="Deposit"
-          fill="#396AFF"
-          activeBar={<Rectangle fill="gold" stroke="blue" />}
-        />
+        <Bar radius={20} barSize={10} dataKey="Withdraw" fill="#343C6A" activeBar={<Rectangle stroke="gray" />} />
+        <Bar radius={20} barSize={10} dataKey="Deposit" fill="#396AFF" activeBar={<Rectangle stroke="blue" />} />
       </BarChart>
     </ResponsiveContainer>
   )

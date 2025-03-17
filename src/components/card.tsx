@@ -1,3 +1,4 @@
+import '../App.css'
 interface CardProps {
   Balance: number
   name: string

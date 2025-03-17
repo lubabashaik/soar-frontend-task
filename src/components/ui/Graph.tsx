@@ -54,7 +54,7 @@ function Graph() {
         barCategoryGap="30%"
         // barGap={4}
       >
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="3 3" vertical={false} />
         <XAxis dataKey="name" />
         <YAxis ticks={[0, 100, 200, 300, 400, 500]} />
         <Tooltip />

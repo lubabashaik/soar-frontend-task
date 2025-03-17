@@ -1,10 +1,12 @@
 import Graph from './components/ui/Graph'
+import PieChart from './components/ui/PieChart'
 
 function App() {
   return (
     <div className="bg-white">
       <p className="font-bold">Weekly Activity</p>
       <Graph />
+      <PieChart />
       {/* <Sidebar />
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />

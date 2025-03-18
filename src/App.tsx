@@ -1,14 +1,21 @@
 import Balance from './components/ui/Balance-History'
 import Graph from './components/ui/Graph'
 import PieChart from './components/ui/PieChart'
+import Transactions from './components/ui/Transactions'
 
 function App() {
   return (
     <div className="bg-white">
       <p className="font-bold">Weekly Activity</p>
       <Graph />
-      <PieChart />
+      <div>
+        <a href="title" className="font-bold">
+          Expense Statistics
+        </a>
+        <PieChart />
+      </div>
       <Balance />
+      <Transactions />
 
       {/* <Sidebar />
       <Routes>

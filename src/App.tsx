@@ -1,3 +1,4 @@
+import Balance from './components/ui/Balance-History'
 import Graph from './components/ui/Graph'
 import PieChart from './components/ui/PieChart'
 
@@ -7,6 +8,8 @@ function App() {
       <p className="font-bold">Weekly Activity</p>
       <Graph />
       <PieChart />
+      <Balance />
+
       {/* <Sidebar />
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />

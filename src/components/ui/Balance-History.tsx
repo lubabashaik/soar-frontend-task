@@ -48,7 +48,7 @@ const data = [
 
 function Balance() {
   return (
-    <div style={{ width: '100%', height: 300 }}>
+    <div style={{ width: 600, height: 200 }}>
       <ResponsiveContainer>
         <AreaChart
           data={data}

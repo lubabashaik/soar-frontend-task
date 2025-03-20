@@ -1,7 +1,7 @@
 interface TransferProps {
   name: string
   title: string
-  img: string
+  img?: string
 }
 function Transfer(props: TransferProps) {
   const { img = '' } = props

@@ -1,5 +1,4 @@
 import '../../App.css'
-import Card from '.././Card'
 import Transfer from '.././Transfer'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../ui/carousel'
 
@@ -16,14 +15,6 @@ const users = [
 function TransferList() {
   return (
     <div>
-      <div className=" justify-items-center">
-        <div className="flex border-2 border-solid w-96 overflow-auto ">
-          <Card Balance={5677} name="Eddy cumse" expiry="12/22" CardNumber="9703**** ****3322" />
-          <Card Balance={9555} name="lubi" expiry="12/25" CardNumber="3456**** ****7890" variant="white" />
-          <Card Balance={4567} name="yasir" expiry="25/36" CardNumber="7654**** ****8765" variant="dark" />
-          <Card Balance={9555} name="tazeem" expiry="12/25" CardNumber="3456**** ****7890" variant="white" />{' '}
-        </div>
-      </div>
       <div className="items-center justify-items-center mt-5  ">
         <div className="flex flex-col justify-center items-center  rounded-xl  ">
           <div className="flex mt-5 ">
